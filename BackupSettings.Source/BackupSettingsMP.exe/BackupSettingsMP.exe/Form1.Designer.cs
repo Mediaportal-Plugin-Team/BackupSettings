@@ -1,7 +1,7 @@
-#region Copyright (C) 2006-2008 Team MediaPortal
+#region Copyright (C) 2006-2025 Team MediaPortal
 
 /* 
- *	Copyright (C) 2006-2008 Team MediaPortal
+ *	Copyright (C) 2006-2025 Team MediaPortal
  *	http://www.team-mediaportal.com
  *
  *  This Program is free software; you can redistribute it and/or modify
@@ -1381,7 +1381,7 @@ namespace BackupSettingsMP.exe
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "MediaPortal BackupSettingsMP V1.2.2.13";
+            this.Text = "MediaPortal BackupSettingsMP V1.3.0.999";
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.tabPage3.ResumeLayout(false);

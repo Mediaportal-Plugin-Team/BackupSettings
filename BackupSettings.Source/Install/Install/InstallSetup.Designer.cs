@@ -538,7 +538,7 @@ namespace BackupSettingsInstall
             this.Controls.Add(this.buttoninstall);
             this.Controls.Add(this.buttonExit);
             this.Name = "InstallSetup";
-            this.Text = "BackupSettings Installer V1.2.2.13";
+            this.Text = "BackupSettings Installer V1.3.0.999";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

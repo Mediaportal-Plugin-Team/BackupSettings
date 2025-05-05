@@ -286,7 +286,7 @@ The plugin can be used with or without Tv server installation.</ExtensionDescrip
 </VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v1.3.0.0/BackupSettings-v1.3.0.0.mpe1</OnlineLocation>
-    <ReleaseDate>2025-05-05T18:27:26</ReleaseDate>
+    <ReleaseDate>2025-05-05T23:23:23</ReleaseDate>
     <Tags>automation,tv server plugins,backupsettings</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>.\[Name]-v[Version].mpe1</Location>

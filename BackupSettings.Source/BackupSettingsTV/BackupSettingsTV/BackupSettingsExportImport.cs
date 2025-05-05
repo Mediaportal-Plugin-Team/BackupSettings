@@ -43,7 +43,7 @@ using System;
 
 using MediaPortal.Plugins;
 
-#if (TV)
+#if TV
 using TvLibrary.Log;
 using TvEngine;
 using TvControl;
@@ -346,7 +346,7 @@ namespace BackupSettingsPlugin
 
 
 
-#if (TV)
+#if TV
         #region constructor
         public void ExportImportInit(ref ProgressBar myprogressBar, bool silent )
         {

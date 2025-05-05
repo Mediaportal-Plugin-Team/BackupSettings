@@ -282,7 +282,7 @@ It also creates a backup of your Media Portal user settings, plugins, skins, inp
 
 
 The plugin can be used with or without Tv server installation.</ExtensionDescription>
-    <VersionDescription>Mediaportal 1.37 x86/x64 support
+    <VersionDescription>Mediaportal 1.37 | Willow x86/x64 support
 </VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v[Version]/BackupSettings-v[Version].mpe1</OnlineLocation>

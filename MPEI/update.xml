@@ -140,7 +140,7 @@ The plugin can be used with or without Tv server installation.</ExtensionDescrip
         <VersionDescription>Mediaportal 1.37 | Willow x86/x64 support
 </VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v1.3.0.0/BackupSettings-v1.3.0.0.mpe1</OnlineLocation>
+        <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v1.3.0.27/BackupSettings-v1.3.0.27.mpe1</OnlineLocation>
         <ReleaseDate>2025-05-06T10:14:57.8135635+00:00</ReleaseDate>
         <Tags>automation,tv server plugins,backupsettings</Tags>
         <PlatformCompatibility>AnyCPU</PlatformCompatibility>

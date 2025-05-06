@@ -320,27 +320,27 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Build>0</Build>
       <Revision>0</Revision>
     </Version>
-    <ExtensionDescription>No more manual typing of user settings after a new reinstall of TV Server and Media Portal.
-
-
-
-The plugin will export/import all MediaPortal and TV Server user settings .
-
-
-
-This includes the settings of cards, TV channels, radio channels, tv groups, radio groups, schedules, recordings, EPG data, general settings, recording settings and plugin settings.
-
-
-
-It also creates a backup of your Media Portal user settings, plugins, skins, input device mappings, thumbs and the database and much more
-
-
-
+    <ExtensionDescription>No more manual typing of user settings after a new reinstall of TV Server and Media Portal.
+
+
+
+The plugin will export/import all MediaPortal and TV Server user settings .
+
+
+
+This includes the settings of cards, TV channels, radio channels, tv groups, radio groups, schedules, recordings, EPG data, general settings, recording settings and plugin settings.
+
+
+
+It also creates a backup of your Media Portal user settings, plugins, skins, input device mappings, thumbs and the database and much more
+
+
+
 The plugin can be used with or without Tv server installation.</ExtensionDescription>
-    <VersionDescription>Mediaportal 1.37 | Willow x86/x64 support
+    <VersionDescription>Mediaportal 1.37 | Willow x86/x64 support
 </VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v1.3.0.0/BackupSettings-v1.3.0.0.mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/[Name]/releases/download/v[Version]/[Name]-v[Version].mpe1</OnlineLocation>
     <ReleaseDate>2025-05-05T23:23:23</ReleaseDate>
     <Tags>automation,tv server plugins,backupsettings</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>

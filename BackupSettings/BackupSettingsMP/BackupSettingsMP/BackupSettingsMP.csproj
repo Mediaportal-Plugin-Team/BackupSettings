@@ -81,6 +81,10 @@
     <Reference Include="MediaPortal">
       <HintPath>..\..\..\External\MediaPortal.exe</HintPath>
     </Reference>
+    <Reference Include="Common.Utils">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\External\Common.Utils.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>

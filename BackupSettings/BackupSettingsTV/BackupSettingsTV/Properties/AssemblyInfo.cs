@@ -58,11 +58,7 @@ using MediaPortal.Common.Utils;
 [assembly: AssemblyVersion("1.3.0.999")]
 [assembly: AssemblyFileVersion("1.3.0.999")]
 
-//new
-#if(MP12)
-//[assembly: CompatibleVersion("Own")]
 [assembly: UsesSubsystem("TVE")]
-[assembly: CompatibleVersion("1.2.100.0", "1.1.6.27644")]
-#endif
+[assembly: CompatibleVersion("1.9.100.0", "1.5.0.0")]
 
 [assembly: CLSCompliant(true)]

@@ -281,16 +281,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     </Items>
   </Dependencies>
   <PluginDependencies>
-    <Items>
-      <PluginDependencyItem AssemblyName="BackupSettingsMP.dll">
-        <CompatibleVersion>
-          <Items />
-        </CompatibleVersion>
-        <SubSystemsUsed>
-          <Items />
-        </SubSystemsUsed>
-      </PluginDependencyItem>
-    </Items>
+    <Items />
   </PluginDependencies>
   <GeneralInfo>
     <Name>BackupSettings</Name>

@@ -39,15 +39,15 @@ REM *************************************************************************
 REM Version Update
 REM *************************************************************************
 
+%FILE_REPLACE% "BackupSettings\Common\BackupSettingsExportImport.cs" %OLDVERSION% %NEWVERSION%
+
 %FILE_REPLACE% "BackupSettings\BackupSettingsTV\BackupSettingsTV\BackupSettingsTV.cs" %OLDVERSION% %NEWVERSION%
 %FILE_REPLACE% "BackupSettings\BackupSettingsTV\BackupSettingsTV\Properties\AssemblyInfo.cs" %OLDVERSION% %NEWVERSION%
-%FILE_REPLACE% "BackupSettings\BackupSettingsTV\BackupSettingsTV\BackupSettingsExportImport.cs" %OLDVERSION% %NEWVERSION%
 
 %FILE_REPLACE% "BackupSettings\BackupSettingsMP\BackupSettingsMP\Properties\AssemblyInfo.cs" %OLDVERSION% %NEWVERSION%
 
 %FILE_REPLACE% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\Form1.Designer.cs" %OLDVERSION% %NEWVERSION%
 %FILE_REPLACE% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\Properties\AssemblyInfo.cs" %OLDVERSION% %NEWVERSION%
-%FILE_REPLACE% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\BackupSettingsExportImport.cs" %OLDVERSION% %NEWVERSION%
 
 %FILE_REPLACE% "BackupSettings\RestartSetupTV\RestartSetupTV\Properties\AssemblyInfo.cs" %OLDVERSION% %NEWVERSION%
 
@@ -68,15 +68,15 @@ CD ..
 
 SET CHECKOUT=git checkout
 
+%CHECKOUT% "BackupSettings\Common\BackupSettingsExportImport.cs"
+
 %CHECKOUT% "BackupSettings\BackupSettingsTV\BackupSettingsTV\BackupSettingsTV.cs"
 %CHECKOUT% "BackupSettings\BackupSettingsTV\BackupSettingsTV\Properties\AssemblyInfo.cs"
-%CHECKOUT% "BackupSettings\BackupSettingsTV\BackupSettingsTV\BackupSettingsExportImport.cs"
 
 %CHECKOUT% "BackupSettings\BackupSettingsMP\BackupSettingsMP\Properties\AssemblyInfo.cs"
 
 %CHECKOUT% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\Form1.Designer.cs"
 %CHECKOUT% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\Properties\AssemblyInfo.cs"
-%CHECKOUT% "BackupSettings\BackupSettingsMP.exe\BackupSettingsMP.exe\BackupSettingsExportImport.cs"
 
 %CHECKOUT% "BackupSettings\RestartSetupTV\RestartSetupTV\Properties\AssemblyInfo.cs"
 

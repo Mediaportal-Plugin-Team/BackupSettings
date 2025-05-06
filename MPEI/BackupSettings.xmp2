@@ -115,7 +115,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         </Actions>
         <IncludedGroups />
         <PanelName>Welcome Screen</PanelName>
-        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
       </SectionItem>
       <SectionItem Guid="b503c359-6ed1-429a-90df-1dc26d5c0d68" Name="Tree View Selector" ConditionGroup="" Condition="None">
         <Params>
@@ -152,7 +152,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <PanelName>Tree View Selector</PanelName>
         <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
       </SectionItem>
-      <SectionItem Guid="866d928d-67e8-4dc4-97f4-80ea8f364e90" Name="Install Section" ConditionGroup="" Condition="None">
+      <SectionItem Guid="65cc226d-9287-4c56-81db-8555101a95a3" Name="Install Section" ConditionGroup="" Condition="None">
         <Params>
           <Items>
             <SectionParam Name="Header Title">
@@ -173,14 +173,24 @@ Click Next to continue or Cancel to exit Setup.</Value>
           </Items>
         </Params>
         <Actions>
-          <Items />
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="Mediaportal" Condition="None">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="TVServer" Condition="None">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
         </Actions>
-        <IncludedGroups>
-          <string>Mediaportal</string>
-          <string>TVServer</string>
-        </IncludedGroups>
+        <IncludedGroups />
         <PanelName>Install Section</PanelName>
-        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
       </SectionItem>
       <SectionItem Guid="67b49ada-9c9c-47c7-94b8-75236997a3d4" Name="Setup Complete" ConditionGroup="" Condition="None">
         <Params>
@@ -212,7 +222,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         </Actions>
         <IncludedGroups />
         <PanelName>Setup Complete</PanelName>
-        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+        <WizardButtonsEnum>BackFinish</WizardButtonsEnum>
       </SectionItem>
     </Items>
   </Sections>
@@ -330,7 +340,7 @@ The plugin can be used with or without Tv server installation.</ExtensionDescrip
     <VersionDescription>Mediaportal 1.37 | Willow x86/x64 support
 </VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v[Version]/BackupSettings-v[Version].mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases/download/v1.3.0.0/BackupSettings-v1.3.0.0.mpe1</OnlineLocation>
     <ReleaseDate>2025-05-05T23:23:23</ReleaseDate>
     <Tags>automation,tv server plugins,backupsettings</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>

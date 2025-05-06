@@ -234,7 +234,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>false</WarnOnly>
-        <Message>Requires MediaPortal 1.36.100.0 or higher!</Message>
+        <Message>Requires MediaPortal 1.37 or higher!</Message>
         <Name>MediaPortal</Name>
         <Condition>None</Condition>
       </DependencyItem>
@@ -254,7 +254,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>true</WarnOnly>
-        <Message>Requires TvServer 1.36.100.0 or higher!</Message>
+        <Message>Requires TvServer 1.37 or higher!</Message>
         <Name>TvServer</Name>
         <Condition>None</Condition>
       </DependencyItem>
@@ -274,7 +274,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>true</WarnOnly>
-        <Message>Requires Installer 1.36.100.0 or higher!</Message>
+        <Message>Requires Installer 1.37 or higher!</Message>
         <Name>Installer</Name>
         <Condition>None</Condition>
       </DependencyItem>

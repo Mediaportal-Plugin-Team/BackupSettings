@@ -234,7 +234,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>false</WarnOnly>
-        <Message>Requires MediaPortal 1.37 or higher!</Message>
+        <Message>Requires MediaPortal 1.36.100.0 or higher!</Message>
         <Name>MediaPortal</Name>
         <Condition>None</Condition>
       </DependencyItem>
@@ -281,7 +281,21 @@ Click Next to continue or Cancel to exit Setup.</Value>
     </Items>
   </Dependencies>
   <PluginDependencies>
-    <Items />
+    <Items>
+      <PluginDependencyItem AssemblyName="BackupSettingsMP.dll">
+        <CompatibleVersion>
+          <Items>
+            <CompatibleVersionItem>
+              <MinRequiredVersion>1.6.100.0</MinRequiredVersion>
+              <DesignedForVersion>1.6.100.0</DesignedForVersion>
+            </CompatibleVersionItem>
+          </Items>
+        </CompatibleVersion>
+        <SubSystemsUsed>
+          <Items />
+        </SubSystemsUsed>
+      </PluginDependencyItem>
+    </Items>
   </PluginDependencies>
   <GeneralInfo>
     <Name>BackupSettings</Name>
@@ -357,7 +371,7 @@ http://www.team-mediaportal.com/components/com_mtree/img/listings/m/1396.jpg</Va
           <Description>Online stored screenshot urls separated by ; </Description>
         </SectionParam>
         <SectionParam Name="Force to uninstall on update">
-          <Value>NO</Value>
+          <Value>YES</Value>
           <ValueType>Bool</ValueType>
           <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
         </SectionParam>

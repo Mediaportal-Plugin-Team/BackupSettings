@@ -102,7 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackupSettingsMP.cs" />
-    <Compile Include="InstallPaths.cs" />
+    <Compile Include="..\..\Common\InstallPaths.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

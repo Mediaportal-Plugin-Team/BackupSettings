@@ -159,8 +159,8 @@
     <Compile Include="BackupSettingsSetupTV.Designer.cs">
       <DependentUpon>BackupSettingsSetupTV.cs</DependentUpon>
     </Compile>
-    <Compile Include="BackupSettingsExportImport.cs" />
-    <Compile Include="InstallPaths.cs" />
+    <Compile Include="..\..\Common\BackupSettingsExportImport.cs" />
+    <Compile Include="..\..\Common\InstallPaths.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

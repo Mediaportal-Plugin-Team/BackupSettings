@@ -220,7 +220,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Items>
       <DependencyItem>
         <Type>MediaPortal</Type>
-        <Id>88f9a821-bd54-4a40-9bfc-222b3324973d</Id>
+        <Id />
         <MinVersion>
           <Major>1</Major>
           <Minor>36</Minor>
@@ -234,8 +234,48 @@ Click Next to continue or Cancel to exit Setup.</Value>
           <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>false</WarnOnly>
-        <Message>Requires BackupSettings 1.36.100.0 or higher!</Message>
-        <Name>BackupSettings</Name>
+        <Message>Requires MediaPortal 1.36.100.0 or higher!</Message>
+        <Name>MediaPortal</Name>
+        <Condition>None</Condition>
+      </DependencyItem>
+      <DependencyItem>
+        <Type>TvServer</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>36</Minor>
+          <Build>100</Build>
+          <Revision>0</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>*</Major>
+          <Minor>*</Minor>
+          <Build>*</Build>
+          <Revision>*</Revision>
+        </MaxVersion>
+        <WarnOnly>true</WarnOnly>
+        <Message>Requires TvServer 1.36.100.0 or higher!</Message>
+        <Name>TvServer</Name>
+        <Condition>None</Condition>
+      </DependencyItem>
+      <DependencyItem>
+        <Type>Installer</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>36</Minor>
+          <Build>100</Build>
+          <Revision>0</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>*</Major>
+          <Minor>*</Minor>
+          <Build>*</Build>
+          <Revision>*</Revision>
+        </MaxVersion>
+        <WarnOnly>true</WarnOnly>
+        <Message>Requires Installer 1.36.100.0 or higher!</Message>
+        <Name>Installer</Name>
         <Condition>None</Condition>
       </DependencyItem>
     </Items>

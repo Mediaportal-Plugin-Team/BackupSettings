@@ -14,9 +14,9 @@ on:
 jobs:
   build:
     name: BackupSettings / Build
-    runs-on: windows-2019
+    runs-on: windows-2022
     steps:
-      - name: Setup Visual Studio 2019
+      - name: Setup Visual Studio 2022
         uses: microsoft/setup-msbuild@v2
         with:
           vs-version: 16.11
@@ -44,7 +44,7 @@ jobs:
         with:
           name: BackupSettings
           path: |
-            ${{ github.workspace }}\BackupSettings\bin\Release\BackupSettings.dll
+            ${{ github.workspace }}\BackupSettings\BackupSettingsMP\BackupSettingsMP\bin\Release\BackupSettingsMP.dll
           retention-days: 7
           if-no-files-found: error
 

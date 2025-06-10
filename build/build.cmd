@@ -29,6 +29,10 @@ SET MSFRAMEPATH=%progpath%\Microsoft Visual Studio\2019\Community\MSBuild\Curren
 IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%progpath%\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
 IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%progpath%\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\bin\MSBuild.exe
 IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%progpath%\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe
+IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%ProgramFiles%\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%ProgramFiles%\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\MSBuild.exe
+IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\bin\MSBuild.exe
+IF NOT EXIST "%MSFRAMEPATH%" SET MSFRAMEPATH=%ProgramFiles%\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\bin\MSBuild.exe
 
 SET FILE_REPLACE=build\FileReplaceString.exe
 REM ******************************END VARIABLES******************************
